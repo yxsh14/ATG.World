@@ -1,0 +1,462 @@
+.inp {
+  border-radius: 30px !important;
+  border: 1px solid;
+  padding: 5px;
+  background-color: rgb(231, 231, 231);
+}
+
+.navimg {
+  width: 300px;
+  padding-left: 80px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.inpu {
+  border: none;
+  background-color: transparent;
+}
+
+.search {
+  font-size: 30px;
+  padding: 5px 0 0 0;
+}
+
+.Nav {
+  margin: 10px 0;
+}
+
+.Nav h5 {
+  padding-top: 6px;
+  padding-left: 40%;
+}
+
+.but {
+  background-color: transparent;
+  color: blue;
+  border: none;
+  font-weight: bolder;
+}
+
+.Home {
+  height: 60vh;
+  background-image: url("./Images/austin-poon-JO_S6ewBqAk-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -30vh;
+  background-position-x: left;
+  color: white;
+  position: relative;
+}
+
+.Text {
+  position: absolute;
+  bottom: 15%;
+  left: 10%;
+}
+
+.Text p {
+  font-size: 20px;
+}
+
+.select {
+  position: sticky;
+  top: 0%;
+  width: 80%;
+  margin: 0px auto;
+  padding: 10px;
+  border-bottom: 1px solid grey;
+  background-color: white;
+  z-index: 10 0;
+}
+
+.btn {
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+.Container {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.icon {
+  font-size: 30px;
+  padding-right: 5px;
+}
+
+
+
+
+.post {
+  overflow: hidden;
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.cardimg {
+  margin: 0 !important;
+  width: 100% !important;
+
+}
+
+.info {
+  margin: 10px 20px;
+}
+
+.heading {
+  padding-left: 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.post h4 {
+  margin: 10px 0;
+}
+
+.date {
+  position: relative;
+  top: 2px;
+  padding-left: 10px;
+}
+
+.cardbtn {
+  width: 100%;
+  background-color: transparent;
+  border-radius: 30px;
+  padding: 5px 0;
+}
+
+.user {
+  width: 70px;
+  height: 70px;
+  border-radius: 70%;
+}
+
+.Name {
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.views {
+  font-size: 15px;
+  position: relative;
+  top: 16px;
+  color: rgb(161, 161, 161);
+  text-align: right;
+}
+
+
+.sharebtn {
+  border: none;
+  background-color: rgb(233, 230, 230);
+  padding: 8px 15px 10px 15px;
+  font-size: 16px;
+  margin-left: 30px;
+}
+
+.location {
+  width: 90%;
+  margin-left: auto;
+}
+
+.in {
+  color: rgb(197, 194, 194);
+  margin-left: 10px;
+}
+
+.wlcmMsg {
+  background-color: rgba(0, 255, 76, 0.418);
+  color: green;
+  text-align: center;
+  padding: 5px;
+}
+
+.Login {
+  width: 80%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  z-index: 100;
+}
+
+.Photo img {
+  margin: 20px 0;
+  width: 100%;
+}
+
+.Login h1 {
+  margin: 40px 30px;
+}
+
+.Sign h1 {
+  margin: 40px 30px;
+}
+
+.loginForm {
+  margin: 40px 0;
+}
+
+
+
+.loginForm input {
+  display: inline-block;
+  margin-left: 30px;
+  width: 80%;
+  border: 0.5px solid grey;
+  padding: 10px;
+  background-color: rgb(204, 201, 201);
+  color: black;
+}
+
+.submit {
+  width: 80%;
+  margin-left: 30px;
+  border-radius: 30px;
+}
+
+.visible {
+  display: inline-block;
+  background-color: rgb(204, 201, 201);
+  height: 100% !important;
+  width: 20%;
+  font-size: 20px !important;
+  position: relative;
+  bottom: 6px;
+  right: 1px;
+}
+
+.password {
+  height: 46.5px;
+  width: 80%;
+  margin-left: 30px;
+  border: 1px solid grey;
+  border-top: none;
+  overflow: hidden;
+  text-align: center;
+}
+
+.password input {
+  width: 80%;
+  margin: 0;
+  padding: 11px;
+  border: none;
+}
+
+.logo {
+  background-color: transparent;
+  width: 80%;
+  margin: 5px 30px;
+  border: 1px solid;
+}
+
+.Login p {
+  text-align: center;
+}
+
+.logo img {
+  width: 35px;
+  margin: 5px 10px;
+}
+
+.name {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+}
+
+.name input {
+  width: 50% !important;
+  margin: 0;
+}
+
+
+.tnc {
+  color: grey;
+  font-size: 13px;
+  text-align: center;
+}
+
+.Sign {
+  width: 80%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  z-index: 100;
+}
+
+.h {
+  text-align: center;
+}
+
+.Small {
+  display: none;
+}
+
+.wall {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.651);
+  z-index: 50;
+}
+
+.signupIn {
+  color: blue;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.close {
+  position: fixed;
+  right: 8%;
+  top: 1%;
+  color: white !important;
+  background-color: black;
+  border: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  z-index: 100;
+}
+
+.loc {
+  border: none;
+}
+
+.locin {
+  border-bottom: 1px solid grey;
+}
+
+.navsm {
+  display: none;
+}
+
+.small {
+  display: none;
+  text-align: center;
+}
+
+@media only screen and (max-width:1000px) {
+  .Photo {
+    display: none;
+  }
+
+
+  .content {
+    margin-top: -30px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+  }
+
+  .content h1 {
+    text-align: center;
+  }
+
+
+  .nsmall {
+    display: none;
+  }
+
+
+  .Small {
+    display: flex;
+  }
+
+  .Home {
+    background-position-y: 0;
+  }
+}
+
+@media only screen and (max-width:800px) {
+  .close {
+    position: absolute;
+    top: 20%;
+  }
+
+  .navsm {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    z-index: 10000;
+  }
+
+  .navb {
+    float: left;
+    color: rgb(201, 200, 200);
+    font-size: 30px;
+  }
+
+  .group button {
+    float: right;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: transparent;
+    border: 2px solid;
+    margin: 10px;
+  }
+
+  .content h1 {
+    text-align: left;
+  }
+
+  .Login {
+    position: fixed;
+    top: 30%;
+    width: 100%;
+    left: 0;
+    transform: translate(0%, 0%);
+  }
+
+  .Sign {
+    position: fixed;
+    top: 17%;
+    width: 100%;
+    left: 0;
+    transform: translate(0%, 0%);
+  }
+
+  .small {
+    display: block;
+    margin-right: 50px;
+  }
+
+
+  .submit {
+    width: 40%;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .signupIn {
+    flex: 4;
+    padding: 10px 0 0 0;
+  }
+
+  .wlcmMsg {
+    display: none;
+  }
+
+  .nsmall {
+    display: none;
+  }
+
+  .Nav {
+    display: none;
+  }
+}
